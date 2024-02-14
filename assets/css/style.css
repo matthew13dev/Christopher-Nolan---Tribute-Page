@@ -1,0 +1,274 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    
+}
+.container {
+    width: 990px;
+    display: flex;
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+    display: block;
+    justify-content: space-between;
+}
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    position: sticky;
+    top: 0;
+
+    background-color: #333846;
+}
+header .container {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+nav ul, nav li {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #fff;
+
+    transition: all 0.015s linear;
+}
+nav a:hover, .active{
+    color: #333846;
+    background-color: #fff;
+}
+
+#banner {
+    background-image: url(/assets/images/background.webp);
+    height: 650px;
+
+    background-size: cover;
+    background-position: center;
+    
+}
+#banner .container{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.banner_bar {
+    height: 150px;
+    width: 5px;
+    background-color: #333846;
+}
+
+.headline {
+    color: #f6f9fc;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.headline h1 {
+    font-size: 40px;
+}
+.headline h2 {
+    font-size: 20px;
+}
+.headline, .banner_bar {
+    margin-top: 20%;
+}
+#banner .banner_footer {
+    width: 100%;
+    height: 20px;
+    background-color: #333846;
+    justify-content: center;
+    margin-top: 290px;
+}
+.bio_banner {
+    display: flex;
+
+}
+.bio_banner img {
+    width: 990px;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.title_bar {
+    width: 10px;
+    height: 50px;
+    background-color: #ffa500  
+}
+.title_text {
+    color: #333846;
+    font-size: 50px;
+    margin-left: 10px;
+}
+#civil {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#civil a {
+    text-decoration: none;
+    color: #333846;
+}
+.body {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.body_image img{
+    border-radius: 20px;
+    width: 300PX;
+    height: auto;
+
+}
+.body_text .text {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 30PX;
+}
+.carrer {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.carrer_box {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 300px;
+}
+.carrer_number {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.carrer_text {
+    font: 20px;
+    margin-bottom: 20px;
+}
+
+#biography {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 100px;
+}
+#main_movies {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.movies {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.movie{
+    display: block;
+    justify-content: center;
+    flex: 1;
+    
+}
+.cropped {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+    border: 1px solid black;
+}
+.movie img {
+    width: 200px;
+    max-width: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+#filmography {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.filmography_body {
+    display: flex;
+}
+table {
+    width: 100%;
+    
+}
+table thead {
+    background-color: #333846;
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    
+}
+table tbody {
+    font-size: 20px;
+}
+table th, table td {
+    text-align: center;
+    padding: 20px;
+    text-align: left;
+}
+table tr {
+    transition: all 0.02s linear;
+}
+tbody tr:hover {
+    background-color: #ccc;
+}
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #333846;
+    height: 200px;
+    color: #fff;
+    
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #ffa500;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.rights {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
